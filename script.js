@@ -17,7 +17,5 @@ for (const Book of Books) {
 }
 function showBook (index) {
     console.log (Books[index])
-    
-
 }
 
