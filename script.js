@@ -5,12 +5,16 @@ const Books = [
 
 
 function addBook (Title, Author, Genre) {
+    
     Books.push({Title, Author, Genre })
 }
 
 function showBooks () {
     let index = 0
 for (const Book of Books) {
+    
+
+    
     console.log (` ${index} .${Book.Title} , ${Book.Title}`)
     index++
 }
